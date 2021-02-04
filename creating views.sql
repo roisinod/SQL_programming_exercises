@@ -19,4 +19,4 @@ ORDER BY purchase_order_number;
 #viewing view
 SELECT *
 FROM purchase_order_overview;
-#only able to update view if it does not include DISTINCT, UNION or aggregate Functions such as GROUP BY or HAVING
+#only able to update view if it does not include DISTINCT, UNION or aggregate functions such as GROUP BY or HAVING
