@@ -16,7 +16,7 @@ ON product.id = item.product_id
 JOIN sales_person
 ON sales_person.id = sales_order.sales_person_id
 ORDER BY purchase_order_number;
-#viewing view
+#display view
 SELECT *
 FROM purchase_order_overview;
 #only able to update view if it does not include DISTINCT, UNION or aggregate functions such as GROUP BY or HAVING
